@@ -46,19 +46,19 @@ plt.title('popularity by genre')
 plt.xlabel('genre')
 plt.ylabel('popylarity');
 
-so now we can see the most popular genre.
----
+so now we can see the most pupular genre:
+
 continue to explore the data to address your additional reserch 
 questions add more headrs as needed if you have more questions to investigate
-sort movies by revenue in descending order
-code:
+sort movies by revenue in descending order.
+Code:
 sorted_revenue_biggest=df.sort_values(by=['revenue'], ascending = False).head(200)
 sorted_revenue_bigges.head(1)
  and see the histogram
-code:
+Code:
 sorted_revenue_biggest.popularity.hist()
 sorted_revenue_biggest.runtime.hist()
---
+
 and they last : are short movies more popular
 to see that :
 code:
